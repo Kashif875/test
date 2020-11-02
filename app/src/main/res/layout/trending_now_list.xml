@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="2dp"
+    card_view:contentPadding="1dp">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/trending_now_title_iv"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/trending_now_pic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/trending_now_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:text="@string/trending_now_title"
+        android:textColor="@color/dark_green"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/trending_now_title_iv"
+        app:layout_constraintStart_toEndOf="@+id/trending_now_title_iv"
+        app:layout_constraintTop_toTopOf="@+id/trending_now_title_iv"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/trending_now_heart_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/trending_now_title_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/trending_now_title_tv"
+        app:layout_constraintTop_toTopOf="@+id/trending_now_title_tv"
+        app:srcCompat="@drawable/ic_heart2" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/trending_now_institute_type_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/trending_now_institute_type"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/trending_now_title_tv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/trending_now_title_tv"
+        app:layout_constraintTop_toTopOf="@+id/trending_now_title_tv" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/trending_now_clock_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_1sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/trending_now_title_iv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toEndOf="@+id/trending_now_title_iv"
+        app:layout_constraintTop_toBottomOf="@+id/trending_now_institute_type_tv"
+        app:layout_constraintVertical_bias="0.617"
+        app:srcCompat="@drawable/ic_clock" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/trending_now_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/trending_now_time"
+        android:textColor="@color/dark_gold"
+        app:layout_constraintBottom_toBottomOf="@+id/trending_now_clock_iv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/trending_now_clock_iv"
+        app:layout_constraintTop_toTopOf="@+id/trending_now_clock_iv"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/trending_now_line_iv"
+        android:layout_width="@dimen/o"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trending_now_time_tv"
+        app:layout_constraintVertical_bias="0.03" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

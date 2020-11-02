@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FpoScreenOne</string>
+    <string name="academy_for_fpos">Academy for FPOs</string>
+    <string name="ongoing_courses">Ongoing Courses</string>
+    <string name="view_all">View all</string>
+    <string name="ongoing_course_title">Lorem ipsum</string>
+    <string name="ongoing_course_duration">33:33</string>
+    <string name="trending_now">Trending Now</string>
+    <string name="blog">Blog</string>
+    <string name="blog_description2">Dolor labore laborum incididunt ea deserunt culpa non pariatur. Labore</string>
+    <string name="blog_description1">Incididunt ea deserunt culpa</string>
+    <string name="blog_title">Agriculture</string>
+    <string name="informative_videos">Informative Videos</string>
+    <string name="informative_videos_title">Labore nostrud Lorem.</string>
+    <string name="informative_videos_date">Sep 21, 2020</string>
+    <string name="latest_courses">Latest Courses</string>
+    <string name="latest_course_title">Labore nostrud Lorem.</string>
+    <string name="latest_course_date">Sep 21, 2020</string>
+    <string name="news_and_events">News &amp; Events</string>
+    <string name="see_all">See all</string>
+    <string name="news_events_title">News</string>
+    <string name="news_events_description">Can Centre’s agriculture reforms positively impact farmers? experts have their say</string>
+    <string name="news_events_date">Jun 5th,2020</string>
+    <string name="event">Event</string>
+    <string name="news_events_name">Samunnati Partners with ET Virtual AgTech Summit 2020</string>
+    <string name="news_events_month">jun</string>
+    <string name="news_events_day">15th jun</string>
+    <string name="news_events_date_time">20th Jun at 10:30 AM</string>
+    <string name="trending_now_title">Labore nostrud Lorem.</string>
+    <string name="trending_now_institute_type">Certifying Institute</string>
+    <string name="trending_now_time">1 hr 10 min</string>
+
+    <string-array name="Languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>Python</item>
+        <item>Scala</item>
+        <item>Perl</item>
+    </string-array>
+</resources>

@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+<style name="header">
+    <item name="android:gravity">center</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize"> 35sp</item>
+    <item name="android:textStyle">bold</item>
+
+</style>
+<style name="subheading1">
+    <item name="android:textColor">@color/dark_green</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">20sp</item>
+</style>
+<style name="subheading2">
+    <item name="android:textColor">@color/black</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:textStyle">bold</item>
+
+</style>
+
+    <style name="subheading3">
+        <item name="android:textColor">@color/dark_orange</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <style name="viewAll">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_orange</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="seeAll">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_green</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name='FpoScreenOne'
+include ':app'
